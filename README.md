@@ -9,7 +9,7 @@ Praw API kullanarak Redditteki post'ların self textini alabilmekteyiz. Alacağ�
 ![Alt text](image-2.png)
 
 Csv dosyamızı oluştururken başlangıçta iki adet sütunumuz mevcut. Bir sütunda textler, bir sütunda ise kategoriler tutuluyor. Kategoriler döngü içerisinde 125'er tane olacak şekilde Ekonomi,Sanat,Teknoloji,Politika konu başlıklarıyla dolduruluyor.
-![Alt text](image-3.png)
+![Alt text](image-5.png)
 
 Bu kısımda ise almış olduğumuz self textler halihazırda kirli olduğu için temizleme işlemlerini gerçekleştiriyoruz. Textlerimizi emojilerden, aralardaki boşluklardan, sembollerden arındırıyoruz
 ![Alt text](image-4.png)
