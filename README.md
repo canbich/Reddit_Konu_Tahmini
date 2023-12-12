@@ -99,6 +99,8 @@ Eğer ki verisetinde ki verilerin sayısını her kategori için 125 tane değil
 
 Yukarıda da belirtitğimiz gibi, 4 farklı kategoriden 125'er tane veri alarak bir veriseti oluşturduk. Toplamda bu 500 tane veriyle bir dil eğitmeye çalıştık. Sonuç olarak verilerin az olması sebebiyle dilimizi düzgün bir şekilde eğitemedik.Dilin düzgün bir şekilde eğitilebilmesi için daha çok veriye ihtiyacımız var. Ancak Redditten aldığımız veriler sınırlı olduğu için ve daha fazlasını ekleyemediğimiz için dilimiz yeteri kadar beslenemedi. Bundan dolayı incelenen text'in hangi kategoriye ait olduğunu yeteri kadar düzgün belirleyemiyoruz. Bunun çözümü basit ama elimizde ki imkanlar el vermediği için çözemiyoruz.Çözümü şudur ki yukarıda da belirttiğimiz gibi verisetinin çok fazla veriden oluşması bu sorunun çözümüdür. Ancak Reddit platformunda ki verilerin azlığı sebebiyle bunu gerçekleştiremiyoruz. 
 Ancak geçici bir çözüm olarak analiz edeceğimiz text'in kelime sayısını olabildiğince fazla tutarak dilimizin bu text'in kategorisini analiz etmesine yardımcı olabiliriz. 
+
+
 Yukarıda ki test3, test4, test5 bu çözüme uygun olarak analiz edilmiştir ve bir nebzede olsa dilimiz doğru tahminde bulunmuştur.
 test1 ve test2 sadece 1 cümleden oluşan ve yeterince kelime olmayan testlerdir ve bu testlerin kategorilerinin yanlış tahmin edildiğini görüyoruz.
 test1'de kategori olarak kesinlikle teknoloji ve test2'de de kategori olarak kesinlikle ekonomi çıkması gerekirken sanat ve politika çıkıyor bunu sebebi verisetinin az sayıda veriden oluşmasıdır.
