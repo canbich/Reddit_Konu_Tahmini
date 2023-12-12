@@ -37,7 +37,29 @@ Alınan sonuçlar aşağıda bulunmaktadır.
 
 
  ## **Kategorilere Göre Başarı Dağılımları**
+
+Kategorilere göre modellerin test verisetindeki başarı dağılımları classification_report() fonksiyonu kullanılarak hesaplanmıştır. 
+Alınan sonuçlar aşağıda bulunmaktadır.
+
+![3 1](https://github.com/canbich/Reddit_Konu_Tahmini/assets/116785114/3e808213-bbde-49e6-82a5-9271a6de48f8)      ![3 2](https://github.com/canbich/Reddit_Konu_Tahmini/assets/116785114/6362cda9-31ff-4066-a738-8b40534b8535)
+
+
+Sonuçlar incelendiğinde Her iki modelin de en başarılı tahmin yaptığı kategorinin ekonomi kategorisi olduğunu görülmektedir. 
+
+
+
  ## **Modellerin Reddit Postlarına Göre Yaptığı Tahminler**
+
+Aşağıdaki görseldeki kolonlarda, Reddit Postu, Reddit Postunun bulunduğu kategori, Naive Bayes modelinin Reddit postu için tahmini ve Support Vector Machine modelinin Reddit Postu için tahmini gösterilmektedir.
+
+0=ekonomi , 1=sanat , 2=teknoloji , 3=politika
+
+
+![4](https://github.com/canbich/Reddit_Konu_Tahmini/assets/116785114/2e26a021-fcc9-4a9e-9db7-6a7d29eaaa8e)
+
+Reddit Postlarının kategorilerine ve modellerin yaptığı tahminlere bakıldığında modeller oldukça iyi çalışıyor gibi gözüküyor. 94. Reddit Postuna bakıldığında naive bayes modelinin bu Reddit Postu için yanlış tahmin yaptığını görüyoruz.
+
+
  ## **Modellerin Hata Oranları**
  ## **Manuel Reddit Postu Testi**
 
