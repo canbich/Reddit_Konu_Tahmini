@@ -71,6 +71,18 @@ Bu hücremizde veri setimizi tamamen emojilerden, boşluklardan ve sembollerden 
 Ardından düzenlenmiş ve temizlenmiş verilerimizi data_cleaned.csv dosyamıza yazarız.
 
 
+# **trainvetest.ipynb’nin import Kısmı**
+
+
+![26799abb-fa52-4596-a2e1-780265c38879](https://github.com/canbich/Reddit_Konu_Tahmini/assets/116785114/88753aa9-93fb-4b07-8fe0-45ba5c9a5134)
+
+**Numpy:** NumPy, Python'da bilimsel hesaplamalar ve veri analizi için kullanılan bir kütüphanedir. 
+
+NumPy, çok boyutlu diziler ve matrisler ile çalışmamızı sağlar. NumPy dizileri, Python listelerinden farklı olarak her bir elemanının aynı veri tipinde olması gerekir. 
+
+Bu, NumPy dizilerini bilimsel hesaplamalar için daha verimli hale getirir.
+
+
 
 
 # **Modelin Oluşturulmaya Başlanması**
