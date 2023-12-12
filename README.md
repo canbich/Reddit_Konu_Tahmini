@@ -84,7 +84,7 @@ Modeli manuel olarak test etmek için elle bazı Reddit Postları girilecek ve m
 
 ![test5](https://github.com/canbich/Reddit_Konu_Tahmini/assets/116785114/1f201db4-9e4e-4385-aa25-54a572921546)
 
-**SONUÇ**
+# **SONUÇ**
 
 
 Sonuca bakıldığında yapılan projede seçilen modelin ne kadar önemli olduğu görülmektedir.
