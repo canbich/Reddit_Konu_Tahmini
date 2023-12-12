@@ -54,11 +54,36 @@ Ortalama mutlak hata, mutlak hata değerinin toplamını alır, hata terimlerini
 ![5](https://github.com/canbich/Reddit_Konu_Tahmini/assets/99393604/5e3c4397-fec0-4b42-b36d-f44742ccef55)
 Sonuçlar incelendiğinde Naive Bayes modelinin Support Vector Machine modeline göre biraz daha fazla hata yaptığını görüyoruz.
 
+
+**Manuel Reddit Postu Testi**
+
 Modeli manuel olarak test etmek için elle bazı Reddit Postları girilecek ve modelin bu Reddit Postlarının hangi kategoriye ait olduğunu tahmin etmesi istenecektir. Test sonuçları aşağıda gösterilmiştir.
 
-Test1:
-![6](https://github.com/canbich/Reddit_Konu_Tahmini/assets/99393604/5ad1d71d-e31c-4ad6-8214-9c65d8a417d3)
-Test2:
+**Test1:**
+
+![test1](https://github.com/canbich/Reddit_Konu_Tahmini/assets/116785114/b40707dd-45a0-470d-bf99-de270a80da5d)
+
+
+**Test2:**
+
+![test2](https://github.com/canbich/Reddit_Konu_Tahmini/assets/116785114/ca4775b9-51db-494b-b74c-ed37721d973c)
+
+
+**Test3:**
+
+![test3](https://github.com/canbich/Reddit_Konu_Tahmini/assets/116785114/35e02842-e112-48af-b77a-a730aebd14ef)
+
+
+**Test4:**
+
+![test4](https://github.com/canbich/Reddit_Konu_Tahmini/assets/116785114/7e2434d0-9398-4b4b-bfb0-b8d8bc4c0f50)
+
+
+**Test5:**
+
+![test5](https://github.com/canbich/Reddit_Konu_Tahmini/assets/116785114/1f201db4-9e4e-4385-aa25-54a572921546)
+
+
 
 
 
