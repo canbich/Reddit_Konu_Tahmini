@@ -5,21 +5,21 @@
 
 
 
-Öncelikle bu alandan projemiz için gerekli kütüphaneleri import ediyoruz
+**Öncelikle bu alandan projemiz için gerekli kütüphaneleri import ediyoruz**
 
-praw: reddit apisine erişim için kullanılır
+**praw:** Reddit apisine erişim için kullanılır
 
-csv: formatında veri okumak ve yazmak için araçlar sağlar
+**csv:** Formatında veri okumak ve yazmak için araçlar sağlar
 
-re:Düzenli ifadeler ile çalışmak için araçlar sağlar.
+**re:** Düzenli ifadeler ile çalışmak için araçlar sağlar.
 
-pandas as pd: veri analizi kütüphanesidir.Verileri temizlemek ve manipüle etmek, istatistiksel analiz yapmak ve verileri görselleştirmek için işlevler sağlar.
+**pandas as pd:** Veri analizi kütüphanesidir. Verileri temizlemek ve manipüle etmek, istatistiksel analiz yapmak ve verileri görselleştirmek için işlevler sağlar.
 
-requests: HTTP isteklerini yapmak için kullanılır.Web sitelerinden ve API'lerden veri almak için kullanışlıdır.
+**requests:** HTTP isteklerini yapmak için kullanılır. Web sitelerinden ve API'lerden veri almak için kullanışlıdır.
 
-nltk:Doğal dil işleme (NLP) için çeşitli araçlar sağlayan Natural Language Toolkit (NLTK) kütüphanesini içerir.
+**nltk:** Doğal dil işleme (NLP) için çeşitli araçlar sağlayan Natural Language Toolkit (NLTK) kütüphanesini içerir.
 
-string: Python'un yerleşik string modülüne erişimi sağlar.Metinleri manipüle etmek ve çalışmak için işlevler sunar.
+**string:** Python'un yerleşik string modülüne erişimi sağlar. Metinleri manipüle etmek ve çalışmak için işlevler sunar.
 
 
 
