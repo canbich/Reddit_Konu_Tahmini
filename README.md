@@ -61,6 +61,16 @@ Text başlığı altında 500 adet url’mizin bulunduğu postların içerisinde
 Kategori başlığının ilk 125 satırında ekonomi, sonraki 125 satırında sanat, sonraki 125 satırında teknoloji, son 125 satırında ise politika yazacaktır.
 
 
+# **Verisetini Temizleme**
+
+![69fc5aec-1ef1-4ccf-8b6d-64814cc632cf](https://github.com/canbich/Reddit_Konu_Tahmini/assets/116785114/dde72f97-27eb-41be-aefb-2d5c5396cabd)
+
+
+Bu hücremizde veri setimizi tamamen emojilerden, boşluklardan ve sembollerden arındırmaktayız. 
+
+Ardından düzenlenmiş ve temizlenmiş verilerimizi data_cleaned.csv dosyamıza yazarız.
+
+
 
 
 # **Modelin Oluşturulmaya Başlanması**
