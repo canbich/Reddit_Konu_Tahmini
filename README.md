@@ -24,7 +24,18 @@ Bu işlemi yaparken tf-idf vectorizer kullanılarak bir kelimenin döküman içi
 Bu sayede her Reddit Postunda geçen model için anlamsız kelimelerin önemi düşürülmüştür yani stopwordsler tekrardan ayıklanmıştır.
 
  ## **Modellerin Eğitilmesi**
+
+Daha önceden parçalanmış olan X_train ve y_train verileri Naive Bayes ve Support Vector Machine modeline gönderilerek modeller eğitilmiştir. Eğitim sonucunda modellerin accuracy ve f1 score değerleri hesaplanmıştır. Modelleri eğitmek için sklearn kütüphanesi kullanılmıştır.
+
+ 
  ## **Modellerin Başarısının Hesaplanması**
+
+Modelin başarısı hem train hem test verileri üzerinden Accuracy ve F1 score ile ölçülmüştür. 
+Alınan sonuçlar aşağıda bulunmaktadır.
+
+![resim1](https://github.com/canbich/Reddit_Konu_Tahmini/assets/116785114/35953f64-c1d3-4a4c-a791-861858b90226)     ![resim2](https://github.com/canbich/Reddit_Konu_Tahmini/assets/116785114/a6fda108-2dd6-4600-98b0-245c3c6c64bc)
+
+
  ## **Kategorilere Göre Başarı Dağılımları**
  ## **Modellerin Reddit Postlarına Göre Yaptığı Tahminler**
  ## **Modellerin Hata Oranları**
