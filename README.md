@@ -56,7 +56,7 @@ Sonuçlar incelendiğinde Naive Bayes modelinin Support Vector Machine modeline 
 
 
 
-<title>**Manuel Reddit Postu Testi**</title>
+**Manuel Reddit Postu Testi**
 
 Modeli manuel olarak test etmek için elle bazı Reddit Postları girilecek ve modelin bu Reddit Postlarının hangi kategoriye ait olduğunu tahmin etmesi istenecektir. Test sonuçları aşağıda gösterilmiştir.
 
@@ -84,7 +84,26 @@ Modeli manuel olarak test etmek için elle bazı Reddit Postları girilecek ve m
 
 ![test5](https://github.com/canbich/Reddit_Konu_Tahmini/assets/116785114/1f201db4-9e4e-4385-aa25-54a572921546)
 
-Sonuç
+**SONUÇ**
+Sonuca bakıldığında yapılan projede seçilen modelin ne kadar önemli olduğu görülmektedir.
+Yapılan farklı projelerde farklı modeller daha iyi sonuç verebilmektedir.
+Her proje için seçilen modelin kendine göre bazı avantajları ve dezavantajları vardır.
+Model seçiminde bu avantajları ve dezavantajları göz önüne alarak model seçimi yapılmalıdır.
+Modelin bize en düşük hata oranı ile sonuçları göstermesini isteriz ve bu isteğimizi yerine getiren modeli seçmek bizim sorumluluğumuzdur.
+Model seçiminin önemi kadar verisetinin güzel bir şekilde hazırlanmış olması, verisetindeki noktalama işaretleri ve modele olumsuz etki edecek stopwordslerden arındırılmış olması, verisetindeki verilerin miktari, eğitim-test verilerinin parçalanma oranı vs. modelin başarısına etki eden çok önemli faktörlerdir. 
+
+Bu projede ulaşılan başarı oranı(%61 NB ve %77 SVM) yüksek bir başarı oranına sahip değildir bunun en temel sebebi verisetini oluştururken farklı kategorilerden aldığımız Reddit postlarıdır ve bunları sayılarıdır çünkü her kategoriden 125 tane veri çektik bu verilerin az olması sebebiyle bu başarı oranlarına sahibiz.
+Eğer ki verisetinde ki verilerin sayısını her kategori için 125 tane değilde 10 bin tane yapsaydık bu testler daha fazla veriye maruz kalacağı için kategori işlemlerini daha düzgün yapacaktı çünkü elimizde ne kadar çok veri varsa testler o denli doğru çalışacaktır.
+
+Yukarıda da belirtitğimiz gibi, 4 farklı kategoriden 125'er tane veri alarak bir veriseti oluşturduk. Toplamda bu 500 tane veriyle bir dil eğitmeye çalıştık. Sonuç olarak verilerin az olması sebebiyle dilimizi düzgün bir şekilde eğitemedik.Dilin düzgün bir şekilde eğitilebilmesi için daha çok veriye ihtiyacımız var. Ancak Redditten aldığımız veriler sınırlı olduğu için ve daha fazlasını ekleyemediğimiz için dilimiz yeteri kadar beslenemedi. Bundan dolayı incelenen text'in hangi kategoriye ait olduğunu yeteri kadar düzgün belirleyemiyoruz. Bunun çözümü basit ama elimizde ki imkanlar el vermediği için çözemiyoruz.Çözümü şudur ki yukarıda da belirttiğimiz gibi verisetinin çok fazla veriden oluşması bu sorunun çözümüdür. Ancak Reddit platformunda ki verilerin azlığı sebebiyle bunu gerçekleştiremiyoruz. 
+Ancak geçici bir çözüm olarak analiz edeceğimiz text'in kelime sayısını olabildiğince fazla tutarak dilimizin bu text'in kategorisini analiz etmesine yardımcı olabiliriz. 
+Yukarıda ki test3, test4, test5 bu çözüme uygun olarak analiz edilmiştir ve bir nebzede olsa dilimiz doğru tahminde bulunmuştur.
+test1 ve test2 sadece 1 cümleden oluşan ve yeterince kelime olmayan testlerdir ve bu testlerin kategorilerinin yanlış tahmin edildiğini görüyoruz.
+test1'de kategori olarak kesinlikle teknoloji ve test2'de de kategori olarak kesinlikle ekonomi çıkması gerekirken sanat ve politika çıkıyor bunu sebebi verisetinin az sayıda veriden oluşmasıdır.
+test3,test4,test5'de bu çözüme dayalı bir süreç yürütebilmek için her test için 10 cümlelik bir text yazdık.
+test3'de kategori olarak kesinlikle sanat çıkması gerekiyor ve gerçekten sanat çıkıyor çünkü analiz ettiğimiz text'in kelime sayısını olabildiğince fazla tuttuk ve yukarıda belirttiğimiz çözüm ile bu durumu ispatladık. 
+Benzer şekilde test4'de kategori olarak kesinlikle politika  ve test5'de ise kesinlik teknoloji çıkması gerekiyor ve gerçekten dilimiz tahminlerini doğru yapıyor.
+
 
 
 
