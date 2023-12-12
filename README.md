@@ -61,11 +61,20 @@ Reddit Postlarının kategorilerine ve modellerin yaptığı tahminlere bakıld�
 
 
  ## **Modellerin Hata Oranları**
- ## **Manuel Reddit Postu Testi**
+
+ Modellerin hata oranlarını tespit etmek için 2 farklı metrik kullanılmıştır. Bunlar Ortalama Kare Hatası(MSE) ve Ortalama Mutlak Hata(MAE) dir.
+
+Ortalama Kare Hatası(MSE)
+Ortalama Kare Hatası tahmin edilen sonuçlarınızın gerçek sayıdan ne kadar farklı olduğuna dair size mutlak bir sayı verir.
+
+Ortalama Mutlak Hata(MAE)
+Ortalama mutlak hata, mutlak hata değerinin toplamını alır, hata terimlerinin toplamının daha doğrudan bir temsilidir.
 
 
+![5](https://github.com/canbich/Reddit_Konu_Tahmini/assets/116785114/789a0d1f-20fe-49ca-a37a-c7bcf7d0ef1b)
 
 
+Sonuçlar incelendiğinde Naive Bayes modelinin Support Vector Machine modeline göre biraz daha fazla hata yaptığını görüyoruz.
 
 
 # **Manuel Reddit Postu Testi**
