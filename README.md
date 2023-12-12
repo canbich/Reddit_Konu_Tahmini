@@ -55,7 +55,8 @@ Ortalama mutlak hata, mutlak hata değerinin toplamını alır, hata terimlerini
 Sonuçlar incelendiğinde Naive Bayes modelinin Support Vector Machine modeline göre biraz daha fazla hata yaptığını görüyoruz.
 
 
-**Manuel Reddit Postu Testi**
+
+<title>**Manuel Reddit Postu Testi**</title>
 
 Modeli manuel olarak test etmek için elle bazı Reddit Postları girilecek ve modelin bu Reddit Postlarının hangi kategoriye ait olduğunu tahmin etmesi istenecektir. Test sonuçları aşağıda gösterilmiştir.
 
@@ -82,6 +83,8 @@ Modeli manuel olarak test etmek için elle bazı Reddit Postları girilecek ve m
 **Test5:**
 
 ![test5](https://github.com/canbich/Reddit_Konu_Tahmini/assets/116785114/1f201db4-9e4e-4385-aa25-54a572921546)
+
+Sonuç
 
 
 
