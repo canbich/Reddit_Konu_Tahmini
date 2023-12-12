@@ -130,6 +130,9 @@ test3'de kategori olarak kesinlikle sanat çıkması gerekiyor ve gerçekten san
 Benzer şekilde test4'de kategori olarak kesinlikle politika  ve test5'de ise kesinlik teknoloji çıkması gerekiyor ve gerçekten dilimiz tahminlerini doğru yapıyor.
 
 
+**Özetle dil modelimizin hata oranını düşürebilmemiz için oluşturmuş olduğumuz veriseti’nin boyutu büyük olmalıdır ve içerisindeki verilerin birbirlerine benzememesi gerekmektedir. Bu sayede dil modelimizi daha iyi eğitebiliriz ve hata oranımızı düşürebiliriz.**
+
+
 
 
 
