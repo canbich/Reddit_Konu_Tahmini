@@ -94,9 +94,7 @@ NumPy, çok boyutlu diziler ve matrisler ile çalışmamızı sağlar. NumPy diz
 
 Bu, NumPy dizilerini bilimsel hesaplamalar için daha verimli hale getirir.
 
-**Sklearn:** 
-
-Scikit-learn, Python'da makine öğrenimi için kullanılan bir kütüphanedir. 
+**Sklearn:** Scikit-learn, Python'da makine öğrenimi için kullanılan bir kütüphanedir. 
 
 Scikit-learn, çeşitli makine öğrenimi algoritmaları ve veri ön işleme araçları sağlar.
 
