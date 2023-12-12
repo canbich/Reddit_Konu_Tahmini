@@ -24,7 +24,41 @@
 **contextlib:** Otomatik olarak kaynakları temizlemek için kullanılan bağlam yöneticilerini yönetmek için araçlar sağlar.
 
 
+# **Praw Api Kullanımı**
 
+![c2](https://github.com/canbich/Reddit_Konu_Tahmini/assets/116785114/3556fbac-219b-4944-9837-d0ffd9212343)
+
+Reddit API kullanabilmemiz için Reddit’ten izin almamız gerekmektedir. 
+
+Reddit hesabımıza giriş yaparak application oluşturma izni aldıktan sonra tarafımıza verilen bilgilerle API’ya dosyamız üzerinden giriş yaparız.
+
+
+# **URL’Leri saklama**
+
+
+![b2e5a9ae-8934-43a1-86dd-ad008b17f826](https://github.com/canbich/Reddit_Konu_Tahmini/assets/116785114/77d78b6c-2a24-405b-982f-e8cf6f6962d3)
+
+Praw API yardımıyla Çekeceğimiz 500 adet postun textini kullanabilmekteyiz. 
+
+Bu işlem için 500 adet postumuzun linkini urls[] adlı listemizde tutmaktayız. 
+
+Daha sonrasında bu url’lerin içerikleri kullanılacaktır.
+
+
+# **CSV Dosyası Oluşturma ve Yazma**
+
+![c4](https://github.com/canbich/Reddit_Konu_Tahmini/assets/116785114/9d6e956a-65ff-4f48-b4ec-de8f8be612c3)
+
+
+Verisitemizi csv dosyamızın içerisinde oluşturacağız. 
+
+Csv dosyamızı sonrasında görsel gösterim için dataframe’e aktaracağız fakat öncelikle bu işlem için de verilerimizi csv dosyamıza aktarmamız gerekmektedir. 
+
+Csv dosyamızın içerisinde 2 adet  başlık bulunacaktır. 
+
+Text başlığı altında 500 adet url’mizin bulunduğu postların içerisindeki textler(selftext) bulunacaktır. 
+
+Kategori başlığının ilk 125 satırında ekonomi, sonraki 125 satırında sanat, sonraki 125 satırında teknoloji, son 125 satırında ise politika yazacaktır.
 
 
 
