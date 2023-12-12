@@ -1,6 +1,6 @@
 # **Proje Ortakları**
 
-**Şahin KARAHAN 213405079** **∞** **Canberk SOYSAL 203405061**
+**Şahin KARAHAN 213405079** **∞∞** **Canberk SOYSAL 203405061**
 
 
 
