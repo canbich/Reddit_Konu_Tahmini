@@ -56,7 +56,7 @@ Sonuçlar incelendiğinde Naive Bayes modelinin Support Vector Machine modeline 
 
 
 
-**Manuel Reddit Postu Testi**
+# **Manuel Reddit Postu Testi**
 
 Modeli manuel olarak test etmek için elle bazı Reddit Postları girilecek ve modelin bu Reddit Postlarının hangi kategoriye ait olduğunu tahmin etmesi istenecektir. Test sonuçları aşağıda gösterilmiştir.
 
