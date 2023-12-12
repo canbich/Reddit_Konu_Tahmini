@@ -21,6 +21,8 @@
 
 **string:** Python'un yerleşik string modülüne erişimi sağlar. Metinleri manipüle etmek ve çalışmak için işlevler sunar.
 
+**contextlib:** Otomatik olarak kaynakları temizlemek için kullanılan bağlam yöneticilerini yönetmek için araçlar sağlar.
+
 
 
 
